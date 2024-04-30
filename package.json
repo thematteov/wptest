@@ -1,0 +1,27 @@
+{
+  "name": "webflow-javascript-template",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rimraf -rf dist",
+    "lint:fix": "eslint ./src --ext .js,.jsx --fix"
+  },
+  "devDependencies": {
+    "jquery": "^3.6.0",
+    "rimraf": "^3.0.2",
+    "vite": "^2.7.2",
+    "vite-plugin-glsl": "^0.1.1"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@splidejs/splide": "^4.1.4",
+    "@studio-freight/lenis": "^1.0.33",
+    "barba.js": "^1.0.0",
+    "gsap": "^3.9.1",
+    "imagesloaded": "^5.0.0",
+    "lenis": "^0.0.2",
+    "split-type": "^0.3.4",
+    "three": "^0.160.0"
+  }
+}
